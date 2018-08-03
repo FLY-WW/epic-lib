@@ -47,6 +47,26 @@ epic\_kitchens.gulp.adapter
     :undoc-members:
     :show-inheritance:
 
+
+epic\_kitchens.scoring
+----------------------
+
+.. automodule:: epic_kitchens.scoring
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+
+epic\_kitchens.metrics
+----------------------
+
+.. automodule:: epic_kitchens.metrics
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+
+
 epic\_kitchens.preprocessing
 ----------------------------
 

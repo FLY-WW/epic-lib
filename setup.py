@@ -25,9 +25,11 @@ setup(
             'gulpio>=500',
             'pandas',
             'numpy',
+            'scikit-learn',
+            'scipy'
         ],
         extras_require={
-            'dev': ['Sphinx', 'pygments', 'sphinx_rtd_theme', 'pytest', 'mypy']
+            'dev': ['Sphinx', 'pygments', 'sphinx_rtd_theme', 'pytest', 'pytest-cov', 'mypy']
         },
         classifiers=[
             # How mature is this project? Common values are
