@@ -63,7 +63,8 @@ def scores_to_ranks(scores: Union[np.ndarray, List[Dict[int, float]]]) -> np.nda
     raise ValueError("Cannot compute ranks for type {}".format(type(scores)))
 
 
-def scores_dict_to_ranks(scores_dict: Dict[str, np.ndarray]) -> Dict[str, np.ndarray]:
+def scores_dict_to_ranks(scores_dict: Dict[str, Union[np.ndarray, List[Dict[int, float]]]]) -> Dict[str,
+                                                                                              np.ndarray]:
     """
     Parameters
     ----------
